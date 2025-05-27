@@ -34,9 +34,9 @@ CREATE TABLE spotify (
 ```
 ## Project Exploration
 Before diving into SQL, it's important to understand the dataset thoroughly. The dataset constains attributes such as:
-```Artist``` : The perfomer of the track.
-```Track``` : The name of the song.
-```Album``` : The album to which the track belongs.
-```Album_type``` : The type of album (e.g., single or album)
-various metrics such as ```Danceability```, ```Energy```, ```Loudness```, ```Tempo```, and more.
+- ```Artist``` : The perfomer of the track.
+- ```Track``` : The name of the song.
+- ```Album``` : The album to which the track belongs.
+- ```Album_type``` : The type of album (e.g., single or album)
+- various metrics such as ```Danceability```, ```Energy```, ```Loudness```, ```Tempo```, and more.
 
