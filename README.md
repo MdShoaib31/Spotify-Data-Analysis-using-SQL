@@ -55,7 +55,7 @@ select track, stream
 from spotify
 where stream > 1000000000;
 ```
-2.List all albums along with their respective artists.
+2. List all albums along with their respective artists.
 ```
 select distinct album, artist
 from spotify
@@ -81,6 +81,7 @@ group by artist
 order by total_tracks asc;
 ```
 **Medium Level
+
 6. Calculate the total number of tracks by each artist.
 ```
 select album, avg(danceability) as avg_danceability
@@ -125,6 +126,7 @@ where
 	streamed_on_youtube <> 0;
 ```
 **Advanced Level
+
 11. Find the top 3 most-viewed tracks for each artist using window functions.
 ```
 with Artist_ranking 
