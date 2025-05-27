@@ -48,7 +48,7 @@ After the data is inserted, various SQL queries can be written to explore and an
 **Advanced Queries
 - Nested subqueries, window functions, CTEs, and performance optimization.
 # 15 Practice Questions
-**Easy Level
+**Easy Level**
 1. Retrieve the names of all tracks that have more than 1 billion streams.
 ```
 select track, stream
@@ -80,7 +80,7 @@ from spotify
 group by artist
 order by total_tracks asc;
 ```
-**Medium Level
+**Medium Level**
 
 6. Calculate the total number of tracks by each artist.
 ```
@@ -125,7 +125,7 @@ where
 	and
 	streamed_on_youtube <> 0;
 ```
-**Advanced Level
+**Advanced Level**
 
 11. Find the top 3 most-viewed tracks for each artist using window functions.
 ```
@@ -182,3 +182,7 @@ select artist,
 		sum(likes) over (order by views desc) as cumulative_sum_of_likes
 from spotify;
 ```
+# Technology Stack
+- Database: PostgreSQL
+- SQL Queries: DDL, DML, Aggregations, joins, Subqueries, Window Functions
+- Tools: pgAdmin 4, PostgreSQL
